@@ -1,0 +1,14 @@
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/bin/Debug/net9.0/PmanProject
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/bin/Debug/net9.0/PmanProject.deps.json
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/bin/Debug/net9.0/PmanProject.runtimeconfig.json
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/bin/Debug/net9.0/PmanProject.dll
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/bin/Debug/net9.0/PmanProject.pdb
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.AssemblyInfoInputs.cache
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.AssemblyInfo.cs
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.csproj.CoreCompileInputs.cache
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.dll
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/refint/PmanProject.dll
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.pdb
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.genruntimeconfig.cache
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/ref/PmanProject.dll
