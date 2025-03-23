@@ -1,6 +1,99 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bfe7f820_002De547_002D431c_002D98f8_002D2f2b4e875f50/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="IntegrationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAssert_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fcbd51ded3de5a42d033a566294ae8a738f26b5d64a542e44282caacad314f_003FAssert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AStringWriter_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F3c8d46e6571ca16278ece54e3a68d8f97d05910289fbbc6fa62e26e12279b59_003FStringWriter_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATestMethodInfo_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F5ef53d675c5d34a6b85963919015dc0c1b06e5ea9834aac59ae6911f4c6f38_003FTestMethodInfo_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0edf91b9_002D3bcc_002D4dbd_002Dbc6f_002Dc445dca53095/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1019e669_002D8213_002D47c5_002D8d8f_002D62799117d97d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=19b98453_002Df6d5_002D4f12_002Dba8c_002Dc1e346315f41/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #15" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2b0607de_002D9001_002D4ffd_002Db581_002D23d2c103c281/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #14" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=38d36c91_002D8cd1_002D46f3_002Db050_002D08463a98d691/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #11" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=44433ecf_002Dd3a8_002D4582_002D8b58_002D3201d5bf9625/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=533c26f6_002D3617_002D40d2_002Db46a_002Dab41e34dd2a3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=608d5574_002D149c_002D4b1b_002Dbce5_002D8f7c626b5756/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #12" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6bae0070_002Dade0_002D4e8c_002D98ba_002D11d575fd9bba/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #10" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=826cbf1a_002D5976_002D445f_002D9fd1_002Dc47ac0db0e8c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=94e24c89_002D3a00_002D4b46_002D91f0_002D1a4f30d0ed62/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ff4a458_002D33dd_002D4c5f_002Da957_002D0f22b7d127ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #16" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7a96e7c_002D8109_002D4b30_002Db189_002Da476182849f4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bfe7f820_002De547_002D431c_002D98f8_002D2f2b4e875f50/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="IntegrationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce6f931e_002D5f90_002D4fb7_002Dad8d_002Da8811c2e501d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #13" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d8ee3b3a_002D1155_002D4514_002D97a5_002D01866f63adea/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e2497169_002D4b3c_002D4b7e_002Da7e2_002D2e804921f5a0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e54d9f8f_002D316b_002D4a0a_002Db3bb_002D2e61cacec050/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ChangeCommandChangesMasterPasswordSuccessfully #18" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6ac4530_002D12d6_002D49ab_002D9ea0_002Daa460ddf49ef/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeCommandChangesMasterPasswordSuccessfully #17" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::CC1F9758-8F86-47F4-A361-427CDA621C25::net9.0::Tests.IntegrationTests.ChangeCommandChangesMasterPasswordSuccessfully&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

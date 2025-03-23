@@ -171,3 +171,4 @@
 /Users/oskarlundemo/RiderProjects/PmanProject/Tests/obj/Debug/net9.0/Tests.pdb
 /Users/oskarlundemo/RiderProjects/PmanProject/Tests/obj/Debug/net9.0/Tests.genruntimeconfig.cache
 /Users/oskarlundemo/RiderProjects/PmanProject/Tests/obj/Debug/net9.0/ref/Tests.dll
+/Users/oskarlundemo/RiderProjects/PmanProject/Tests/obj/Debug/net9.0/Tests.sourcelink.json

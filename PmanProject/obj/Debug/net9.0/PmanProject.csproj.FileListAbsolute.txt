@@ -12,3 +12,4 @@
 /Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.pdb
 /Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.genruntimeconfig.cache
 /Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/ref/PmanProject.dll
+/Users/oskarlundemo/RiderProjects/PmanProject/PmanProject/obj/Debug/net9.0/PmanProject.sourcelink.json

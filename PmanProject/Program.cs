@@ -82,13 +82,13 @@ namespace PmanProject
                         break;
 
                     case "change":
-                        if (args.Length != 4)
+                        if (args.Length != 3)
                         {
-                            Console.WriteLine("Usage: change <client> <server> <masterPassword>");
+                            Console.WriteLine("Usage: change <client> <server>");
                             return;
                         }
 
-                        ChangeCommand(args[1], args[2], args[3]);
+                        ChangeCommand(args[1], args[2]);
                         break;
 
                     default:
@@ -135,24 +135,13 @@ namespace PmanProject
 
         public static void CreateCommand(string newClientPath, string serverPath)
         {
-
-
-            /*
-             * Måste skapa en ny client
-             */
-
+            
             Console.Write("Enter master password: ");
             string masterPassword = Console.ReadLine();
 
             Console.Write("Enter secret key: ");
             string secretKey = Console.ReadLine();
-
-
-            /*
-             * Sen samma server
-             */
-
-
+            
             try
             {
                 var serverData = JsonSerializer.Deserialize<ServerData>(File.ReadAllText(serverPath));
@@ -178,10 +167,7 @@ namespace PmanProject
 
         public static void GetCommand(string clientPath, string serverPath, string prop)
         {
-
-
-            // Master password måste in interactive 
-
+            
             Console.WriteLine("Enter master password: ");
             string masterPassword = Console.ReadLine();
 
@@ -297,12 +283,16 @@ namespace PmanProject
             Console.WriteLine("Secret Key: " + clientData.Secret);
         }
 
-        public static void ChangeCommand(string clientPath, string serverPath, string masterPassword)
+        public static void ChangeCommand(string clientPath, string serverPath)
         {
+            
+            Console.WriteLine("Enter current master password: ");
+            string currentMasterPassword = Console.ReadLine();
+            
             var clientData = JsonSerializer.Deserialize<ClientData>(File.ReadAllText(clientPath));
             var serverData = JsonSerializer.Deserialize<ServerData>(File.ReadAllText(serverPath));
 
-            byte[] vaultKey = DeriveVaultKey(masterPassword, Convert.FromBase64String(clientData.Secret));
+            byte[] vaultKey = DeriveVaultKey(currentMasterPassword, Convert.FromBase64String(clientData.Secret));
             string vaultJson = DecryptVault(serverData.Vault, vaultKey, Convert.FromBase64String(serverData.IV));
             var vault = JsonSerializer.Deserialize<Vault>(vaultJson);
 
@@ -310,11 +300,12 @@ namespace PmanProject
             Console.WriteLine("Login successful.");
             Console.ResetColor();
 
+            
+            Console.WriteLine("Enter new master password: ");
             string newPassword = Console.ReadLine();
 
             byte[] newVaultKey = DeriveVaultKey(newPassword, Convert.FromBase64String(clientData.Secret));
-            serverData.Vault = EncryptVault(JsonSerializer.Serialize(vault), newVaultKey,
-                Convert.FromBase64String(serverData.IV));
+            serverData.Vault = EncryptVault(JsonSerializer.Serialize(vault), newVaultKey, Convert.FromBase64String(serverData.IV));
             File.WriteAllText(serverPath, JsonSerializer.Serialize(serverData));
 
             Console.ForegroundColor = ConsoleColor.Green;

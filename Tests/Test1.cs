@@ -203,11 +203,59 @@ namespace Tests
             string prop2Response = get(clientPath1, serverPath, pwd1, prop2);
             Assert.IsFalse(prop2Response.Contains(data2), "The command 'get' must not retrieve dropped values.");
         }
+        [TestMethod]
+    public void ChangeCommandChangesMasterPasswordSuccessfully()
+    {
+        
+            // Arrange
+            string oldPassword = "oldPassword123";
+            string newPassword = "newPassword456";
+            string prop = "testProp";
+            string data = "testData";
+        
+            // Initialize the vault with the old password
+            init(clientPath1, serverPath, oldPassword);
 
+
+            // Set some data in the vault
+            set(clientPath1, serverPath, oldPassword, prop, data);
+            string oldData = get(clientPath1, serverPath, oldPassword, prop).Split(Environment.NewLine)[^1];
+            
+            // Act: Change the master password
+            change(clientPath1, serverPath, oldPassword, newPassword);
+            
+            
+
+            // Assert: Ensure the vault is accessible with the new password
+            string retrievedData = get(clientPath1, serverPath, newPassword, prop).Split(Environment.NewLine)[^1];
+            Assert.AreEqual(data, retrievedData, "The vault should be accessible with the new password.");
+        
+            // Assert: Ensure the vault is not accessible with the old password
+            try
+            {
+                get(clientPath1, serverPath, oldPassword, prop);
+            }
+            catch (CryptographicException)
+            {
+                Assert.Fail("The vault should not be accessible with the old password after changing it.");
+                // Expected behavior
+            }
+    }
+    
 
         ///
         /// Domain-specific language (DSL) to simplify testing:
         ///
+        ///
+        ///
+        ///
+        private string change (string clientPath, string serverPath, string oldPassword, string newPassword) 
+        {
+            resetConsoleOutput();
+            setConsoleInput(oldPassword, newPassword);
+            run("change", clientPath, serverPath);
+            return getConsoleOutput().Trim(); 
+        }
 
         private string init(string clientPath, string serverPath, string pwd)
         {
